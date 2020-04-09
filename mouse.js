@@ -1,5 +1,7 @@
 function mouse(name)
 {
 	this.name = name;
-	this.age = 2
+	
+	this.dead = false;
 }
+module.exports = mouse;
