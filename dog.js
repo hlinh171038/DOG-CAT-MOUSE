@@ -1,5 +1,6 @@
-function dog()
+function dog(name)
 {
+	this.name = name;
  this.stomatch = [];
 }
 dog.prototype.eat = function(cat) {
